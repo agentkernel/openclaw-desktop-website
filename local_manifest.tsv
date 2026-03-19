@@ -1,0 +1,852 @@
+﻿.claude\commands\cb-backend.md	30112
+.claude\commands\cb-database.md	20089
+.claude\commands\cb-debug.md	24353
+.claude\commands\cb-design.md	14111
+.claude\commands\cb-devops.md	23693
+.claude\commands\cb-frontend.md	26611
+.claude\commands\cb-init.md	16249
+.claude\commands\cb-main.md	18714
+.claude\commands\cb-plan.md	23885
+.cobrain - 副本\artifacts\.gitkeep	0
+.cobrain - 副本\constitution.md	28653
+.cobrain - 副本\DIRECTORY-TREE.md	27657
+.cobrain - 副本\error-reports\.gitkeep	0
+.cobrain - 副本\error-reports\ERROR-20260306T052256Z-DEBUG-P2.xml	3109
+.cobrain - 副本\error-reports\ERROR-20260306T080806Z-FEEDBACK-P1.xml	3578
+.cobrain - 副本\error-reports\ERROR-20260307T023000Z-INTEG-WIZARD.xml	4226
+.cobrain - 副本\error-reports\ERROR-20260307T050000Z-DEBUG-P3.xml	5083
+.cobrain - 副本\project-profile.yaml	4214
+.cobrain - 副本\specs\.gitkeep	0
+.cobrain - 副本\specs\DEPLOY-MVP\plan.md	1947
+.cobrain - 副本\specs\DEPLOY-MVP\spec.md	2714
+.cobrain - 副本\specs\DEPLOY-MVP\tasks.md	975
+.cobrain - 副本\specs\DEPLOY-P55\plan.md	1386
+.cobrain - 副本\specs\DEPLOY-P55\spec.md	1784
+.cobrain - 副本\specs\DEPLOY-P55\tasks.md	270
+.cobrain - 副本\specs\DEPLOY-P6\plan.md	932
+.cobrain - 副本\specs\DEPLOY-P6\spec.md	1943
+.cobrain - 副本\specs\FIX-004\plan.md	770
+.cobrain - 副本\specs\FIX-004\spec.md	1022
+.cobrain - 副本\specs\FIX-004\tasks.md	558
+.cobrain - 副本\specs\INFRA-001\plan.md	1743
+.cobrain - 副本\specs\INFRA-001\spec.md	1286
+.cobrain - 副本\specs\INFRA-001\tasks.md	840
+.cobrain - 副本\specs\README.md	741
+.cobrain - 副本\specs\TASK-101\plan.md	2126
+.cobrain - 副本\specs\TASK-101\spec.md	2477
+.cobrain - 副本\specs\TASK-101\tasks.md	1187
+.cobrain - 副本\specs\TASK-102\plan.md	1468
+.cobrain - 副本\specs\TASK-102\spec.md	6314
+.cobrain - 副本\specs\TASK-102\tasks.md	1206
+.cobrain - 副本\specs\TASK-103\plan.md	1683
+.cobrain - 副本\specs\TASK-103\spec.md	3327
+.cobrain - 副本\specs\TASK-103\tasks.md	1164
+.cobrain - 副本\specs\TASK-104\plan.md	1777
+.cobrain - 副本\specs\TASK-104\spec.md	3002
+.cobrain - 副本\specs\TASK-104\tasks.md	702
+.cobrain - 副本\specs\TASK-105\plan.md	1496
+.cobrain - 副本\specs\TASK-105\spec.md	3814
+.cobrain - 副本\specs\TASK-105\tasks.md	720
+.cobrain - 副本\specs\TASK-106\plan.md	1868
+.cobrain - 副本\specs\TASK-106\spec.md	2115
+.cobrain - 副本\specs\TASK-106\tasks.md	635
+.cobrain - 副本\specs\TASK-107\plan.md	2079
+.cobrain - 副本\specs\TASK-107\spec.md	2745
+.cobrain - 副本\specs\TASK-107\tasks.md	831
+.cobrain - 副本\specs\TASK-201\plan.md	1895
+.cobrain - 副本\specs\TASK-201\spec.md	2583
+.cobrain - 副本\specs\TASK-201\tasks.md	1091
+.cobrain - 副本\specs\TASK-202\plan.md	1833
+.cobrain - 副本\specs\TASK-202\spec.md	2242
+.cobrain - 副本\specs\TASK-202\tasks.md	911
+.cobrain - 副本\specs\TASK-203\plan.md	2067
+.cobrain - 副本\specs\TASK-203\spec.md	2098
+.cobrain - 副本\specs\TASK-203\tasks.md	955
+.cobrain - 副本\specs\TASK-204\plan.md	2033
+.cobrain - 副本\specs\TASK-204\spec.md	2197
+.cobrain - 副本\specs\TASK-204\tasks.md	1036
+.cobrain - 副本\specs\TASK-205\plan.md	1502
+.cobrain - 副本\specs\TASK-205\spec.md	3168
+.cobrain - 副本\specs\TASK-205\tasks.md	885
+.cobrain - 副本\specs\TASK-206\plan.md	1179
+.cobrain - 副本\specs\TASK-206\spec.md	1852
+.cobrain - 副本\specs\TASK-206\tasks.md	653
+.cobrain - 副本\specs\TASK-207\plan.md	1520
+.cobrain - 副本\specs\TASK-207\spec.md	1436
+.cobrain - 副本\specs\TASK-207\tasks.md	1079
+.cobrain - 副本\specs\TASK-208\plan.md	2028
+.cobrain - 副本\specs\TASK-208\spec.md	1635
+.cobrain - 副本\specs\TASK-208\tasks.md	866
+.cobrain - 副本\specs\TASK-216\plan.md	3187
+.cobrain - 副本\specs\TASK-216\spec.md	5496
+.cobrain - 副本\specs\TASK-301\plan.md	1320
+.cobrain - 副本\specs\TASK-301\spec.md	1412
+.cobrain - 副本\specs\TASK-301\tasks.md	315
+.cobrain - 副本\specs\TASK-302\plan.md	3684
+.cobrain - 副本\specs\TASK-302\spec.md	1740
+.cobrain - 副本\specs\TASK-302\tasks.md	1143
+.cobrain - 副本\specs\TASK-303\plan.md	1114
+.cobrain - 副本\specs\TASK-303\spec.md	1901
+.cobrain - 副本\specs\TASK-303\tasks.md	678
+.cobrain - 副本\specs\TASK-304\plan.md	1457
+.cobrain - 副本\specs\TASK-304\spec.md	2350
+.cobrain - 副本\specs\TASK-304\tasks.md	373
+.cobrain - 副本\specs\TASK-305\plan.md	1128
+.cobrain - 副本\specs\TASK-305\spec.md	1963
+.cobrain - 副本\specs\TASK-305\tasks.md	611
+.cobrain - 副本\specs\TASK-306\plan.md	1753
+.cobrain - 副本\specs\TASK-306\spec.md	2080
+.cobrain - 副本\specs\TASK-306\tasks.md	456
+.cobrain - 副本\specs\TASK-307\plan.md	1585
+.cobrain - 副本\specs\TASK-307\spec.md	2191
+.cobrain - 副本\specs\TASK-307\tasks.md	1045
+.cobrain - 副本\specs\TASK-308\plan.md	3649
+.cobrain - 副本\specs\TASK-308\spec.md	5085
+.cobrain - 副本\specs\TASK-308\tasks.md	1657
+.cobrain - 副本\specs\TASK-401\plan.md	1105
+.cobrain - 副本\specs\TASK-401\spec.md	1879
+.cobrain - 副本\specs\TASK-401\tasks.md	538
+.cobrain - 副本\specs\TASK-402\plan.md	1366
+.cobrain - 副本\specs\TASK-402\spec.md	1505
+.cobrain - 副本\specs\TASK-402\tasks.md	436
+.cobrain - 副本\specs\TASK-403\plan.md	1307
+.cobrain - 副本\specs\TASK-403\spec.md	1460
+.cobrain - 副本\specs\TASK-403\tasks.md	400
+.cobrain - 副本\specs\TASK-404\plan.md	1588
+.cobrain - 副本\specs\TASK-404\spec.md	2104
+.cobrain - 副本\specs\TASK-404\tasks.md	528
+.cobrain - 副本\specs\TASK-406\plan.md	2190
+.cobrain - 副本\specs\TASK-406\spec.md	3107
+.cobrain - 副本\specs\TASK-406\tasks.md	1250
+.cobrain - 副本\specs\TASK-407\plan.md	4682
+.cobrain - 副本\specs\TASK-407\spec.md	3077
+.cobrain - 副本\specs\TASK-407\tasks.md	2447
+.cobrain - 副本\specs\TASK-501\plan.md	2783
+.cobrain - 副本\specs\TASK-501\spec.md	2666
+.cobrain - 副本\specs\TASK-501\tasks.md	1150
+.cobrain - 副本\specs\TASK-502\plan.md	2898
+.cobrain - 副本\specs\TASK-502\spec.md	2824
+.cobrain - 副本\specs\TASK-502\tasks.md	1745
+.cobrain - 副本\specs\TASK-503\plan.md	2292
+.cobrain - 副本\specs\TASK-503\spec.md	2762
+.cobrain - 副本\specs\TASK-503\tasks.md	1144
+.cobrain - 副本\specs\TASK-504\plan.md	1934
+.cobrain - 副本\specs\TASK-504\spec.md	2153
+.cobrain - 副本\specs\TASK-504\tasks.md	1035
+.cobrain - 副本\specs\TASK-505\plan.md	3785
+.cobrain - 副本\specs\TASK-505\spec.md	6553
+.cobrain - 副本\specs\TASK-505\tasks.md	1692
+.cobrain - 副本\specs\TASK-511\plan.md	1810
+.cobrain - 副本\specs\TASK-511\spec.md	1789
+.cobrain - 副本\specs\TASK-511\tasks.md	786
+.cobrain - 副本\specs\TASK-512\spec.md	942
+.cobrain - 副本\specs\TASK-513\plan.md	2512
+.cobrain - 副本\specs\TASK-513\spec.md	4057
+.cobrain - 副本\specs\TASK-513\tasks.md	693
+.cobrain - 副本\specs\TASK-551\plan.md	836
+.cobrain - 副本\specs\TASK-551\spec.md	2199
+.cobrain - 副本\specs\TASK-551\tasks.md	281
+.cobrain - 副本\specs\TASK-552\plan.md	623
+.cobrain - 副本\specs\TASK-552\spec.md	914
+.cobrain - 副本\specs\TASK-552\tasks.md	297
+.cobrain - 副本\specs\TASK-553\plan.md	2097
+.cobrain - 副本\specs\TASK-553\spec.md	2964
+.cobrain - 副本\specs\TASK-553\tasks.md	889
+.cobrain - 副本\specs\TASK-554\plan.md	1353
+.cobrain - 副本\specs\TASK-554\spec.md	2073
+.cobrain - 副本\specs\TASK-554\tasks.md	234
+.cobrain - 副本\specs\TASK-555\plan.md	2159
+.cobrain - 副本\specs\TASK-555\spec.md	2616
+.cobrain - 副本\specs\TASK-555\tasks.md	1288
+.cobrain - 副本\specs\TASK-556\plan.md	1118
+.cobrain - 副本\specs\TASK-556\spec.md	1979
+.cobrain - 副本\specs\TASK-556\tasks.md	476
+.cobrain - 副本\specs\TASK-557\plan.md	929
+.cobrain - 副本\specs\TASK-557\spec.md	2488
+.cobrain - 副本\specs\TASK-557\tasks.md	287
+.cobrain - 副本\specs\TASK-558\plan.md	1071
+.cobrain - 副本\specs\TASK-558\spec.md	2817
+.cobrain - 副本\specs\TASK-558\tasks.md	741
+.cobrain - 副本\specs\TASK-559\plan.md	1713
+.cobrain - 副本\specs\TASK-559\spec.md	2698
+.cobrain - 副本\specs\TASK-559\tasks.md	794
+.cobrain - 副本\specs\TASK-560\plan.md	1881
+.cobrain - 副本\specs\TASK-560\spec.md	2997
+.cobrain - 副本\specs\TASK-560\tasks.md	885
+.cobrain - 副本\specs\TASK-561\plan.md	1172
+.cobrain - 副本\specs\TASK-561\spec.md	2742
+.cobrain - 副本\specs\TASK-561\tasks.md	671
+.cobrain - 副本\specs\TASK-562\plan.md	1458
+.cobrain - 副本\specs\TASK-562\spec.md	2930
+.cobrain - 副本\specs\TASK-562\tasks.md	957
+.cobrain - 副本\specs\TASK-563\plan.md	2387
+.cobrain - 副本\specs\TASK-563\spec.md	3839
+.cobrain - 副本\specs\TASK-563\tasks.md	1041
+.cobrain - 副本\specs\TASK-564\plan.md	1169
+.cobrain - 副本\specs\TASK-564\spec.md	2513
+.cobrain - 副本\specs\TASK-564\tasks.md	487
+.cobrain - 副本\specs\TASK-565\plan.md	1180
+.cobrain - 副本\specs\TASK-565\spec.md	2539
+.cobrain - 副本\specs\TASK-565\tasks.md	811
+.cobrain - 副本\specs\TASK-601\plan.md	2953
+.cobrain - 副本\specs\TASK-601\spec.md	3923
+.cobrain - 副本\specs\TASK-601\tasks.md	1820
+.cobrain - 副本\specs\TASK-602\plan.md	2440
+.cobrain - 副本\specs\TASK-602\spec.md	3360
+.cobrain - 副本\specs\TASK-602\tasks.md	1003
+.cobrain - 副本\specs\TASK-603\plan.md	2456
+.cobrain - 副本\specs\TASK-603\spec.md	2785
+.cobrain - 副本\specs\TASK-603\tasks.md	1621
+.cobrain - 副本\specs\TASK-604\plan.md	2609
+.cobrain - 副本\specs\TASK-604\spec.md	3454
+.cobrain - 副本\specs\TASK-604\tasks.md	1086
+.cobrain - 副本\task-flow.xml	96367
+.cobrain - 副本\templates\error-report-template.xml	1719
+.cobrain - 副本\templates\module-development-template.md	3648
+.cobrain - 副本\templates\plan-template.md	2369
+.cobrain - 副本\templates\product-design-template.md	5021
+.cobrain - 副本\templates\project-profile-template.yaml	3551
+.cobrain - 副本\templates\spec-template.md	2713
+.cobrain - 副本\templates\sub-constitution\backend-constitution.md	6709
+.cobrain - 副本\templates\sub-constitution\database-constitution.md	6034
+.cobrain - 副本\templates\sub-constitution\debug-constitution.md	6641
+.cobrain - 副本\templates\sub-constitution\design-constitution.md	8440
+.cobrain - 副本\templates\sub-constitution\devops-constitution.md	3847
+.cobrain - 副本\templates\sub-constitution\frontend-constitution.md	6034
+.cobrain - 副本\templates\sub-constitution\init-constitution.md	3876
+.cobrain - 副本\templates\sub-constitution\main-constitution.md	5136
+.cobrain - 副本\templates\sub-constitution\plan-constitution.md	4946
+.cobrain - 副本\templates\task-flow-template.xml	6690
+.cobrain - 副本\templates\tasks-template.md	2526
+.cobrain - 副本\templates\tech-architecture-template.md	5362
+.cobrain - 副本\templates\unit-task-template.xml	1258
+.cobrain - 副本\tools\python\analyzer.py	2133
+.cobrain - 副本\tools\python\generator.py	2831
+.cobrain - 副本\tools\python\run-python.sh	1020
+.cobrain - 副本\tools\python\setup-venv.sh	1081
+.cobrain - 副本\tools\python\validate-python.sh	734
+.cobrain - 副本\tools\python\validator.py	1490
+.cobrain - 副本\tools\README.md	1033
+.cobrain - 副本\units\_shared\README.md	880
+.cobrain - 副本\units\backend\constitution.md	5832
+.cobrain - 副本\units\backend\programs\.gitkeep	0
+.cobrain - 副本\units\backend\programs\README.md	565
+.cobrain - 副本\units\backend\programs\requirements.txt	140
+.cobrain - 副本\units\backend\README.md	657
+.cobrain - 副本\units\backend\scripts\.gitkeep	0
+.cobrain - 副本\units\backend\scripts\README.md	354
+.cobrain - 副本\units\backend\scripts\run-task.sh	489
+.cobrain - 副本\units\backend\scripts\setup.sh	213
+.cobrain - 副本\units\backend\scripts\validate.sh	218
+.cobrain - 副本\units\backend\scripts\verify-config-manager.mjs	1377
+.cobrain - 副本\units\backend\scripts\verify-diagnostics.mjs	2210
+.cobrain - 副本\units\backend\scripts\verify-gateway-health-manager.mjs	1847
+.cobrain - 副本\units\backend\scripts\verify-gateway-manager.mjs	1731
+.cobrain - 副本\units\backend\scripts\verify-ipc-handlers.mjs	2582
+.cobrain - 副本\units\backend\scripts\verify-lifecycle.mjs	1282
+.cobrain - 副本\units\backend\scripts\verify-providers.mjs	2438
+.cobrain - 副本\units\backend\scripts\verify-registry.mjs	2965
+.cobrain - 副本\units\backend\scripts\verify-single-instance.mjs	956
+.cobrain - 副本\units\backend\scripts\verify-TASK-551.mjs	2312
+.cobrain - 副本\units\backend\scripts\verify-TASK-552.mjs	3061
+.cobrain - 副本\units\backend\scripts\verify-TASK-553.mjs	2763
+.cobrain - 副本\units\backend\scripts\verify-TASK-554.mjs	3067
+.cobrain - 副本\units\backend\scripts\verify-TASK-555.mjs	3483
+.cobrain - 副本\units\backend\scripts\verify-TASK-556.mjs	3923
+.cobrain - 副本\units\backend\scripts\verify-TASK-557.mjs	2784
+.cobrain - 副本\units\backend\scripts\verify-TASK-558.mjs	3964
+.cobrain - 副本\units\backend\scripts\verify-TASK-559.mjs	4425
+.cobrain - 副本\units\backend\scripts\verify-TASK-560.mjs	4161
+.cobrain - 副本\units\backend\scripts\verify-TASK-561.mjs	2715
+.cobrain - 副本\units\backend\scripts\verify-TASK-562.mjs	3747
+.cobrain - 副本\units\backend\scripts\verify-TASK-563.mjs	4096
+.cobrain - 副本\units\backend\scripts\verify-TASK-565.mjs	4013
+.cobrain - 副本\units\backend\scripts\verify-TASK-601.mjs	4523
+.cobrain - 副本\units\backend\scripts\verify-TASK-603.mjs	3262
+.cobrain - 副本\units\backend\scripts\verify-TASK-604.mjs	4660
+.cobrain - 副本\units\backend\scripts\verify-tray-manager.mjs	2043
+.cobrain - 副本\units\backend\scripts\verify-window-manager.mjs	1822
+.cobrain - 副本\units\backend\scripts\verify-wizard-ipc.mjs	6234
+.cobrain - 副本\units\backend\tech-refs\.gitkeep	0
+.cobrain - 副本\units\backend\tech-refs\README.md	363
+.cobrain - 副本\units\backend\unit-task.xml	30033
+.cobrain - 副本\units\database\constitution.md	6038
+.cobrain - 副本\units\database\programs\.gitkeep	0
+.cobrain - 副本\units\database\programs\README.md	390
+.cobrain - 副本\units\database\programs\requirements.txt	64
+.cobrain - 副本\units\database\README.md	653
+.cobrain - 副本\units\database\scripts\.gitkeep	0
+.cobrain - 副本\units\database\scripts\README.md	258
+.cobrain - 副本\units\database\scripts\run-task.sh	394
+.cobrain - 副本\units\database\scripts\setup.sh	213
+.cobrain - 副本\units\database\scripts\validate.sh	218
+.cobrain - 副本\units\database\tech-refs\.gitkeep	0
+.cobrain - 副本\units\database\tech-refs\README.md	279
+.cobrain - 副本\units\database\unit-task.xml	481
+.cobrain - 副本\units\debug\constitution.md	6641
+.cobrain - 副本\units\debug\DEBUG-P1-report.md	2969
+.cobrain - 副本\units\debug\DEBUG-P2-report.md	2825
+.cobrain - 副本\units\debug\DEBUG-P3-report.md	5822
+.cobrain - 副本\units\debug\DEBUG-P4-report.md	2318
+.cobrain - 副本\units\debug\DEBUG-P55-report.md	3581
+.cobrain - 副本\units\debug\DEBUG-P6-report.md	3213
+.cobrain - 副本\units\debug\FEEDBACK-MVP-report.md	3685
+.cobrain - 副本\units\debug\FEEDBACK-P1-report.md	2165
+.cobrain - 副本\units\debug\FEEDBACK-P2-report.md	6653
+.cobrain - 副本\units\debug\FEEDBACK-P3-report.md	6041
+.cobrain - 副本\units\debug\FEEDBACK-P55-report.md	1963
+.cobrain - 副本\units\debug\FEEDBACK-P6-report.md	4784
+.cobrain - 副本\units\debug\FIX-001-report.md	1866
+.cobrain - 副本\units\debug\FIX-002-report.md	1699
+.cobrain - 副本\units\debug\INTEG-ALIGN-report.md	2543
+.cobrain - 副本\units\debug\INTEG-SHELL-report.md	4232
+.cobrain - 副本\units\debug\INTEG-WIZARD-report.md	6422
+.cobrain - 副本\units\debug\programs\.gitkeep	0
+.cobrain - 副本\units\debug\programs\README.md	266
+.cobrain - 副本\units\debug\programs\requirements.txt	59
+.cobrain - 副本\units\debug\README.md	659
+.cobrain - 副本\units\debug\scripts\.gitkeep	0
+.cobrain - 副本\units\debug\scripts\README.md	253
+.cobrain - 副本\units\debug\scripts\run-task.sh	392
+.cobrain - 副本\units\debug\scripts\setup.sh	211
+.cobrain - 副本\units\debug\scripts\validate.sh	216
+.cobrain - 副本\units\debug\scripts\verify-config-scenarios.mjs	2034
+.cobrain - 副本\units\debug\scripts\verify-debug-p3.mjs	27427
+.cobrain - 副本\units\debug\scripts\verify-debug-p4.mjs	2793
+.cobrain - 副本\units\debug\scripts\verify-debug-p6.mjs	8432
+.cobrain - 副本\units\debug\scripts\verify-integ-align.mjs	6417
+.cobrain - 副本\units\debug\scripts\verify-integ-shell.mjs	23747
+.cobrain - 副本\units\debug\scripts\verify-integ-update.mjs	3588
+.cobrain - 副本\units\debug\scripts\verify-integ-wizard.mjs	30951
+.cobrain - 副本\units\debug\scripts\verify-preload-api.mjs	2588
+.cobrain - 副本\units\debug\scripts\verify-smoke-align1.mjs	9801
+.cobrain - 副本\units\debug\scripts\verify-smoke-align2.mjs	11203
+.cobrain - 副本\units\debug\scripts\verify-smoke-align3.mjs	15397
+.cobrain - 副本\units\debug\scripts\verify-smoke-m2.mjs	10226
+.cobrain - 副本\units\debug\scripts\verify-smoke-m4.mjs	24338
+.cobrain - 副本\units\debug\scripts\verify-smoke-upd1.mjs	7373
+.cobrain - 副本\units\debug\SMOKE-ALIGN1-report.md	1810
+.cobrain - 副本\units\debug\SMOKE-ALIGN2-report.md	1764
+.cobrain - 副本\units\debug\SMOKE-ALIGN3-report.md	3318
+.cobrain - 副本\units\debug\SMOKE-M1-report.md	1820
+.cobrain - 副本\units\debug\SMOKE-M2-report.md	3877
+.cobrain - 副本\units\debug\SMOKE-M4-report.md	5309
+.cobrain - 副本\units\debug\SMOKE-M5-report.md	2925
+.cobrain - 副本\units\debug\SMOKE-UPD1-report.md	2512
+.cobrain - 副本\units\debug\tech-refs\.gitkeep	0
+.cobrain - 副本\units\debug\tech-refs\README.md	281
+.cobrain - 副本\units\debug\unit-task.xml	25584
+.cobrain - 副本\units\design\constitution.md	8440
+.cobrain - 副本\units\design\programs\README.md	255
+.cobrain - 副本\units\design\programs\requirements.txt	55
+.cobrain - 副本\units\design\README.md	704
+.cobrain - 副本\units\design\scripts\README.md	177
+.cobrain - 副本\units\design\tech-refs\README.md	288
+.cobrain - 副本\units\devops\constitution.md	3847
+.cobrain - 副本\units\devops\programs\README.md	272
+.cobrain - 副本\units\devops\programs\requirements.txt	133
+.cobrain - 副本\units\devops\README.md	819
+.cobrain - 副本\units\devops\scripts\generate-resources.mjs	6876
+.cobrain - 副本\units\devops\scripts\README.md	298
+.cobrain - 副本\units\devops\tech-refs\README.md	234
+.cobrain - 副本\units\devops\unit-task.xml	9748
+.cobrain - 副本\units\frontend\constitution.md	5169
+.cobrain - 副本\units\frontend\programs\.gitkeep	0
+.cobrain - 副本\units\frontend\programs\README.md	413
+.cobrain - 副本\units\frontend\programs\requirements.txt	61
+.cobrain - 副本\units\frontend\README.md	660
+.cobrain - 副本\units\frontend\scripts\.gitkeep	0
+.cobrain - 副本\units\frontend\scripts\README.md	258
+.cobrain - 副本\units\frontend\scripts\run-task.sh	430
+.cobrain - 副本\units\frontend\scripts\setup.sh	213
+.cobrain - 副本\units\frontend\scripts\validate.sh	218
+.cobrain - 副本\units\frontend\tech-refs\.gitkeep	0
+.cobrain - 副本\units\frontend\tech-refs\README.md	381
+.cobrain - 副本\units\frontend\unit-task.xml	8293
+.cobrain - 副本\units\init\constitution.md	3880
+.cobrain - 副本\units\init\programs\.gitkeep	0
+.cobrain - 副本\units\init\programs\README.md	303
+.cobrain - 副本\units\init\programs\requirements.txt	60
+.cobrain - 副本\units\init\README.md	640
+.cobrain - 副本\units\init\scripts\.gitkeep	0
+.cobrain - 副本\units\init\scripts\README.md	128
+.cobrain - 副本\units\init\scripts\run-task.sh	394
+.cobrain - 副本\units\init\scripts\setup.sh	213
+.cobrain - 副本\units\init\scripts\validate.sh	218
+.cobrain - 副本\units\init\tech-refs\.gitkeep	0
+.cobrain - 副本\units\init\tech-refs\README.md	166
+.cobrain - 副本\units\init\unit-task.xml	473
+.cobrain - 副本\units\main\constitution.md	5136
+.cobrain - 副本\units\main\programs\.gitkeep	0
+.cobrain - 副本\units\main\programs\README.md	216
+.cobrain - 副本\units\main\programs\requirements.txt	60
+.cobrain - 副本\units\main\README.md	607
+.cobrain - 副本\units\main\scripts\.gitkeep	0
+.cobrain - 副本\units\main\scripts\README.md	122
+.cobrain - 副本\units\main\scripts\run-task.sh	394
+.cobrain - 副本\units\main\scripts\setup.sh	213
+.cobrain - 副本\units\main\scripts\validate.sh	218
+.cobrain - 副本\units\main\tech-refs\.gitkeep	0
+.cobrain - 副本\units\main\tech-refs\README.md	182
+.cobrain - 副本\units\main\unit-task.xml	473
+.cobrain - 副本\units\plan\constitution.md	7682
+.cobrain - 副本\units\plan\programs\.gitkeep	0
+.cobrain - 副本\units\plan\programs\README.md	217
+.cobrain - 副本\units\plan\programs\requirements.txt	60
+.cobrain - 副本\units\plan\README.md	1002
+.cobrain - 副本\units\plan\scripts\.gitkeep	0
+.cobrain - 副本\units\plan\scripts\README.md	252
+.cobrain - 副本\units\plan\scripts\run-task.sh	392
+.cobrain - 副本\units\plan\scripts\setup.sh	211
+.cobrain - 副本\units\plan\scripts\validate.sh	216
+.cobrain - 副本\units\plan\tech-refs\.gitkeep	0
+.cobrain - 副本\units\plan\tech-refs\module-index-template.md	1359
+.cobrain - 副本\units\plan\tech-refs\openclaw-module-index.md	7617
+.cobrain - 副本\units\plan\tech-refs\openviking-module-index.md	4070
+.cobrain - 副本\units\plan\tech-refs\README.md	655
+.cobrain - 副本\units\plan\unit-task.xml	473
+.cobrain - 副本\version.yaml	2648
+.cobrain\artifacts\.gitkeep	0
+.cobrain\constitution.md	28653
+.cobrain\DIRECTORY-TREE.md	27657
+.cobrain\error-reports\.gitkeep	0
+.cobrain\error-reports\ERROR-20260306T052256Z-DEBUG-P2.xml	3109
+.cobrain\error-reports\ERROR-20260306T080806Z-FEEDBACK-P1.xml	3578
+.cobrain\error-reports\ERROR-20260307T023000Z-INTEG-WIZARD.xml	4226
+.cobrain\error-reports\ERROR-20260307T050000Z-DEBUG-P3.xml	5083
+.cobrain\project-profile.yaml	4214
+.cobrain\specs\.gitkeep	0
+.cobrain\specs\DEPLOY-MVP\plan.md	1947
+.cobrain\specs\DEPLOY-MVP\spec.md	2714
+.cobrain\specs\DEPLOY-MVP\tasks.md	975
+.cobrain\specs\DEPLOY-P55\plan.md	1386
+.cobrain\specs\DEPLOY-P55\spec.md	1784
+.cobrain\specs\DEPLOY-P55\tasks.md	270
+.cobrain\specs\DEPLOY-P6\plan.md	932
+.cobrain\specs\DEPLOY-P6\spec.md	1943
+.cobrain\specs\FIX-004\plan.md	770
+.cobrain\specs\FIX-004\spec.md	1022
+.cobrain\specs\FIX-004\tasks.md	558
+.cobrain\specs\INFRA-001\plan.md	1743
+.cobrain\specs\INFRA-001\spec.md	1286
+.cobrain\specs\INFRA-001\tasks.md	840
+.cobrain\specs\README.md	741
+.cobrain\specs\TASK-101\plan.md	2126
+.cobrain\specs\TASK-101\spec.md	2477
+.cobrain\specs\TASK-101\tasks.md	1187
+.cobrain\specs\TASK-102\plan.md	1468
+.cobrain\specs\TASK-102\spec.md	6314
+.cobrain\specs\TASK-102\tasks.md	1206
+.cobrain\specs\TASK-103\plan.md	1683
+.cobrain\specs\TASK-103\spec.md	3327
+.cobrain\specs\TASK-103\tasks.md	1164
+.cobrain\specs\TASK-104\plan.md	1777
+.cobrain\specs\TASK-104\spec.md	3002
+.cobrain\specs\TASK-104\tasks.md	702
+.cobrain\specs\TASK-105\plan.md	1496
+.cobrain\specs\TASK-105\spec.md	3814
+.cobrain\specs\TASK-105\tasks.md	720
+.cobrain\specs\TASK-106\plan.md	1868
+.cobrain\specs\TASK-106\spec.md	2115
+.cobrain\specs\TASK-106\tasks.md	635
+.cobrain\specs\TASK-107\plan.md	2079
+.cobrain\specs\TASK-107\spec.md	2745
+.cobrain\specs\TASK-107\tasks.md	831
+.cobrain\specs\TASK-201\plan.md	1895
+.cobrain\specs\TASK-201\spec.md	2583
+.cobrain\specs\TASK-201\tasks.md	1091
+.cobrain\specs\TASK-202\plan.md	1833
+.cobrain\specs\TASK-202\spec.md	2242
+.cobrain\specs\TASK-202\tasks.md	911
+.cobrain\specs\TASK-203\plan.md	2067
+.cobrain\specs\TASK-203\spec.md	2098
+.cobrain\specs\TASK-203\tasks.md	955
+.cobrain\specs\TASK-204\plan.md	2033
+.cobrain\specs\TASK-204\spec.md	2197
+.cobrain\specs\TASK-204\tasks.md	1036
+.cobrain\specs\TASK-205\plan.md	1502
+.cobrain\specs\TASK-205\spec.md	3168
+.cobrain\specs\TASK-205\tasks.md	885
+.cobrain\specs\TASK-206\plan.md	1179
+.cobrain\specs\TASK-206\spec.md	1852
+.cobrain\specs\TASK-206\tasks.md	653
+.cobrain\specs\TASK-207\plan.md	1520
+.cobrain\specs\TASK-207\spec.md	1436
+.cobrain\specs\TASK-207\tasks.md	1079
+.cobrain\specs\TASK-208\plan.md	2028
+.cobrain\specs\TASK-208\spec.md	1635
+.cobrain\specs\TASK-208\tasks.md	866
+.cobrain\specs\TASK-216\plan.md	3187
+.cobrain\specs\TASK-216\spec.md	5496
+.cobrain\specs\TASK-301\plan.md	1320
+.cobrain\specs\TASK-301\spec.md	1412
+.cobrain\specs\TASK-301\tasks.md	315
+.cobrain\specs\TASK-302\plan.md	3684
+.cobrain\specs\TASK-302\spec.md	1740
+.cobrain\specs\TASK-302\tasks.md	1143
+.cobrain\specs\TASK-303\plan.md	1114
+.cobrain\specs\TASK-303\spec.md	1901
+.cobrain\specs\TASK-303\tasks.md	678
+.cobrain\specs\TASK-304\plan.md	1457
+.cobrain\specs\TASK-304\spec.md	2350
+.cobrain\specs\TASK-304\tasks.md	373
+.cobrain\specs\TASK-305\plan.md	1128
+.cobrain\specs\TASK-305\spec.md	1963
+.cobrain\specs\TASK-305\tasks.md	611
+.cobrain\specs\TASK-306\plan.md	1753
+.cobrain\specs\TASK-306\spec.md	2080
+.cobrain\specs\TASK-306\tasks.md	456
+.cobrain\specs\TASK-307\plan.md	1585
+.cobrain\specs\TASK-307\spec.md	2191
+.cobrain\specs\TASK-307\tasks.md	1045
+.cobrain\specs\TASK-308\plan.md	3649
+.cobrain\specs\TASK-308\spec.md	5085
+.cobrain\specs\TASK-308\tasks.md	1657
+.cobrain\specs\TASK-401\plan.md	1105
+.cobrain\specs\TASK-401\spec.md	1879
+.cobrain\specs\TASK-401\tasks.md	538
+.cobrain\specs\TASK-402\plan.md	1366
+.cobrain\specs\TASK-402\spec.md	1505
+.cobrain\specs\TASK-402\tasks.md	436
+.cobrain\specs\TASK-403\plan.md	1307
+.cobrain\specs\TASK-403\spec.md	1460
+.cobrain\specs\TASK-403\tasks.md	400
+.cobrain\specs\TASK-404\plan.md	1588
+.cobrain\specs\TASK-404\spec.md	2104
+.cobrain\specs\TASK-404\tasks.md	528
+.cobrain\specs\TASK-406\plan.md	2190
+.cobrain\specs\TASK-406\spec.md	3107
+.cobrain\specs\TASK-406\tasks.md	1250
+.cobrain\specs\TASK-407\plan.md	4682
+.cobrain\specs\TASK-407\spec.md	3077
+.cobrain\specs\TASK-407\tasks.md	2447
+.cobrain\specs\TASK-501\plan.md	2783
+.cobrain\specs\TASK-501\spec.md	2666
+.cobrain\specs\TASK-501\tasks.md	1150
+.cobrain\specs\TASK-502\plan.md	2898
+.cobrain\specs\TASK-502\spec.md	2824
+.cobrain\specs\TASK-502\tasks.md	1745
+.cobrain\specs\TASK-503\plan.md	2292
+.cobrain\specs\TASK-503\spec.md	2762
+.cobrain\specs\TASK-503\tasks.md	1144
+.cobrain\specs\TASK-504\plan.md	1934
+.cobrain\specs\TASK-504\spec.md	2153
+.cobrain\specs\TASK-504\tasks.md	1035
+.cobrain\specs\TASK-505\plan.md	3785
+.cobrain\specs\TASK-505\spec.md	6553
+.cobrain\specs\TASK-505\tasks.md	1692
+.cobrain\specs\TASK-511\plan.md	1810
+.cobrain\specs\TASK-511\spec.md	1789
+.cobrain\specs\TASK-511\tasks.md	786
+.cobrain\specs\TASK-512\spec.md	942
+.cobrain\specs\TASK-513\plan.md	2512
+.cobrain\specs\TASK-513\spec.md	4057
+.cobrain\specs\TASK-513\tasks.md	693
+.cobrain\specs\TASK-551\plan.md	836
+.cobrain\specs\TASK-551\spec.md	2199
+.cobrain\specs\TASK-551\tasks.md	281
+.cobrain\specs\TASK-552\plan.md	623
+.cobrain\specs\TASK-552\spec.md	914
+.cobrain\specs\TASK-552\tasks.md	297
+.cobrain\specs\TASK-553\plan.md	2097
+.cobrain\specs\TASK-553\spec.md	2964
+.cobrain\specs\TASK-553\tasks.md	889
+.cobrain\specs\TASK-554\plan.md	1353
+.cobrain\specs\TASK-554\spec.md	2073
+.cobrain\specs\TASK-554\tasks.md	234
+.cobrain\specs\TASK-555\plan.md	2159
+.cobrain\specs\TASK-555\spec.md	2616
+.cobrain\specs\TASK-555\tasks.md	1288
+.cobrain\specs\TASK-556\plan.md	1118
+.cobrain\specs\TASK-556\spec.md	1979
+.cobrain\specs\TASK-556\tasks.md	476
+.cobrain\specs\TASK-557\plan.md	929
+.cobrain\specs\TASK-557\spec.md	2488
+.cobrain\specs\TASK-557\tasks.md	287
+.cobrain\specs\TASK-558\plan.md	1071
+.cobrain\specs\TASK-558\spec.md	2817
+.cobrain\specs\TASK-558\tasks.md	741
+.cobrain\specs\TASK-559\plan.md	1713
+.cobrain\specs\TASK-559\spec.md	2698
+.cobrain\specs\TASK-559\tasks.md	794
+.cobrain\specs\TASK-560\plan.md	1881
+.cobrain\specs\TASK-560\spec.md	2997
+.cobrain\specs\TASK-560\tasks.md	885
+.cobrain\specs\TASK-561\plan.md	1172
+.cobrain\specs\TASK-561\spec.md	2742
+.cobrain\specs\TASK-561\tasks.md	671
+.cobrain\specs\TASK-562\plan.md	1458
+.cobrain\specs\TASK-562\spec.md	2930
+.cobrain\specs\TASK-562\tasks.md	957
+.cobrain\specs\TASK-563\plan.md	2387
+.cobrain\specs\TASK-563\spec.md	3839
+.cobrain\specs\TASK-563\tasks.md	1041
+.cobrain\specs\TASK-564\plan.md	1169
+.cobrain\specs\TASK-564\spec.md	2513
+.cobrain\specs\TASK-564\tasks.md	487
+.cobrain\specs\TASK-565\plan.md	1180
+.cobrain\specs\TASK-565\spec.md	2539
+.cobrain\specs\TASK-565\tasks.md	811
+.cobrain\specs\TASK-601\plan.md	2953
+.cobrain\specs\TASK-601\spec.md	3923
+.cobrain\specs\TASK-601\tasks.md	1820
+.cobrain\specs\TASK-602\plan.md	2440
+.cobrain\specs\TASK-602\spec.md	3360
+.cobrain\specs\TASK-602\tasks.md	1003
+.cobrain\specs\TASK-603\plan.md	2456
+.cobrain\specs\TASK-603\spec.md	2785
+.cobrain\specs\TASK-603\tasks.md	1621
+.cobrain\specs\TASK-604\plan.md	2609
+.cobrain\specs\TASK-604\spec.md	3454
+.cobrain\specs\TASK-604\tasks.md	1086
+.cobrain\task-flow.xml	96367
+.cobrain\templates\error-report-template.xml	1719
+.cobrain\templates\module-development-template.md	3648
+.cobrain\templates\plan-template.md	2369
+.cobrain\templates\product-design-template.md	5021
+.cobrain\templates\project-profile-template.yaml	3674
+.cobrain\templates\spec-template.md	2713
+.cobrain\templates\sub-constitution\backend-constitution.md	6709
+.cobrain\templates\sub-constitution\database-constitution.md	6034
+.cobrain\templates\sub-constitution\debug-constitution.md	6641
+.cobrain\templates\sub-constitution\design-constitution.md	8440
+.cobrain\templates\sub-constitution\devops-constitution.md	3847
+.cobrain\templates\sub-constitution\frontend-constitution.md	6034
+.cobrain\templates\sub-constitution\init-constitution.md	3876
+.cobrain\templates\sub-constitution\main-constitution.md	5136
+.cobrain\templates\sub-constitution\plan-constitution.md	4946
+.cobrain\templates\task-flow-template.xml	6690
+.cobrain\templates\tasks-template.md	2526
+.cobrain\templates\tech-architecture-template.md	5362
+.cobrain\templates\unit-task-template.xml	1258
+.cobrain\tools\python\analyzer.py	2372
+.cobrain\tools\python\generator.py	2831
+.cobrain\tools\python\run-python.sh	1020
+.cobrain\tools\python\setup-venv.sh	1081
+.cobrain\tools\python\validate-python.sh	734
+.cobrain\tools\python\validator.py	1843
+.cobrain\tools\README.md	1033
+.cobrain\units\_shared\README.md	880
+.cobrain\units\backend\constitution.md	5832
+.cobrain\units\backend\programs\.gitkeep	0
+.cobrain\units\backend\programs\README.md	565
+.cobrain\units\backend\programs\requirements.txt	140
+.cobrain\units\backend\README.md	657
+.cobrain\units\backend\scripts\.gitkeep	0
+.cobrain\units\backend\scripts\README.md	354
+.cobrain\units\backend\scripts\run-task.sh	489
+.cobrain\units\backend\scripts\setup.sh	213
+.cobrain\units\backend\scripts\validate.sh	218
+.cobrain\units\backend\scripts\verify-config-manager.mjs	1377
+.cobrain\units\backend\scripts\verify-diagnostics.mjs	2210
+.cobrain\units\backend\scripts\verify-gateway-health-manager.mjs	1847
+.cobrain\units\backend\scripts\verify-gateway-manager.mjs	1731
+.cobrain\units\backend\scripts\verify-ipc-handlers.mjs	2582
+.cobrain\units\backend\scripts\verify-lifecycle.mjs	1282
+.cobrain\units\backend\scripts\verify-providers.mjs	2438
+.cobrain\units\backend\scripts\verify-registry.mjs	2965
+.cobrain\units\backend\scripts\verify-single-instance.mjs	956
+.cobrain\units\backend\scripts\verify-TASK-551.mjs	2312
+.cobrain\units\backend\scripts\verify-TASK-552.mjs	3061
+.cobrain\units\backend\scripts\verify-TASK-553.mjs	2763
+.cobrain\units\backend\scripts\verify-TASK-554.mjs	3067
+.cobrain\units\backend\scripts\verify-TASK-555.mjs	3483
+.cobrain\units\backend\scripts\verify-TASK-556.mjs	3923
+.cobrain\units\backend\scripts\verify-TASK-557.mjs	2784
+.cobrain\units\backend\scripts\verify-TASK-558.mjs	3964
+.cobrain\units\backend\scripts\verify-TASK-559.mjs	4425
+.cobrain\units\backend\scripts\verify-TASK-560.mjs	4161
+.cobrain\units\backend\scripts\verify-TASK-561.mjs	2715
+.cobrain\units\backend\scripts\verify-TASK-562.mjs	3747
+.cobrain\units\backend\scripts\verify-TASK-563.mjs	4096
+.cobrain\units\backend\scripts\verify-TASK-565.mjs	4013
+.cobrain\units\backend\scripts\verify-TASK-601.mjs	4523
+.cobrain\units\backend\scripts\verify-TASK-603.mjs	3262
+.cobrain\units\backend\scripts\verify-TASK-604.mjs	4660
+.cobrain\units\backend\scripts\verify-tray-manager.mjs	2043
+.cobrain\units\backend\scripts\verify-window-manager.mjs	1822
+.cobrain\units\backend\scripts\verify-wizard-ipc.mjs	6234
+.cobrain\units\backend\tech-refs\.gitkeep	0
+.cobrain\units\backend\tech-refs\README.md	363
+.cobrain\units\backend\unit-task.xml	30033
+.cobrain\units\database\constitution.md	6038
+.cobrain\units\database\programs\.gitkeep	0
+.cobrain\units\database\programs\README.md	390
+.cobrain\units\database\programs\requirements.txt	64
+.cobrain\units\database\README.md	653
+.cobrain\units\database\scripts\.gitkeep	0
+.cobrain\units\database\scripts\README.md	258
+.cobrain\units\database\scripts\run-task.sh	394
+.cobrain\units\database\scripts\setup.sh	213
+.cobrain\units\database\scripts\validate.sh	218
+.cobrain\units\database\tech-refs\.gitkeep	0
+.cobrain\units\database\tech-refs\README.md	279
+.cobrain\units\database\unit-task.xml	481
+.cobrain\units\debug\constitution.md	6641
+.cobrain\units\debug\DEBUG-P1-report.md	2969
+.cobrain\units\debug\DEBUG-P2-report.md	2825
+.cobrain\units\debug\DEBUG-P3-report.md	5822
+.cobrain\units\debug\DEBUG-P4-report.md	2318
+.cobrain\units\debug\DEBUG-P55-report.md	3581
+.cobrain\units\debug\DEBUG-P6-report.md	3213
+.cobrain\units\debug\FEEDBACK-MVP-report.md	3685
+.cobrain\units\debug\FEEDBACK-P1-report.md	2165
+.cobrain\units\debug\FEEDBACK-P2-report.md	6653
+.cobrain\units\debug\FEEDBACK-P3-report.md	6041
+.cobrain\units\debug\FEEDBACK-P55-report.md	1963
+.cobrain\units\debug\FEEDBACK-P6-report.md	4784
+.cobrain\units\debug\FIX-001-report.md	1866
+.cobrain\units\debug\FIX-002-report.md	1699
+.cobrain\units\debug\INTEG-ALIGN-report.md	2543
+.cobrain\units\debug\INTEG-SHELL-report.md	4232
+.cobrain\units\debug\INTEG-WIZARD-report.md	6422
+.cobrain\units\debug\programs\.gitkeep	0
+.cobrain\units\debug\programs\README.md	266
+.cobrain\units\debug\programs\requirements.txt	59
+.cobrain\units\debug\README.md	659
+.cobrain\units\debug\scripts\.gitkeep	0
+.cobrain\units\debug\scripts\README.md	253
+.cobrain\units\debug\scripts\run-task.sh	392
+.cobrain\units\debug\scripts\setup.sh	211
+.cobrain\units\debug\scripts\validate.sh	216
+.cobrain\units\debug\scripts\verify-config-scenarios.mjs	2034
+.cobrain\units\debug\scripts\verify-debug-p3.mjs	27427
+.cobrain\units\debug\scripts\verify-debug-p4.mjs	2793
+.cobrain\units\debug\scripts\verify-debug-p6.mjs	8432
+.cobrain\units\debug\scripts\verify-integ-align.mjs	6417
+.cobrain\units\debug\scripts\verify-integ-shell.mjs	23747
+.cobrain\units\debug\scripts\verify-integ-update.mjs	3588
+.cobrain\units\debug\scripts\verify-integ-wizard.mjs	30951
+.cobrain\units\debug\scripts\verify-preload-api.mjs	2588
+.cobrain\units\debug\scripts\verify-smoke-align1.mjs	9801
+.cobrain\units\debug\scripts\verify-smoke-align2.mjs	11203
+.cobrain\units\debug\scripts\verify-smoke-align3.mjs	15397
+.cobrain\units\debug\scripts\verify-smoke-m2.mjs	10226
+.cobrain\units\debug\scripts\verify-smoke-m4.mjs	24338
+.cobrain\units\debug\scripts\verify-smoke-upd1.mjs	7373
+.cobrain\units\debug\SMOKE-ALIGN1-report.md	1810
+.cobrain\units\debug\SMOKE-ALIGN2-report.md	1764
+.cobrain\units\debug\SMOKE-ALIGN3-report.md	3318
+.cobrain\units\debug\SMOKE-M1-report.md	1820
+.cobrain\units\debug\SMOKE-M2-report.md	3877
+.cobrain\units\debug\SMOKE-M4-report.md	5309
+.cobrain\units\debug\SMOKE-M5-report.md	2925
+.cobrain\units\debug\SMOKE-UPD1-report.md	2512
+.cobrain\units\debug\tech-refs\.gitkeep	0
+.cobrain\units\debug\tech-refs\README.md	281
+.cobrain\units\debug\unit-task.xml	25584
+.cobrain\units\design\constitution.md	8440
+.cobrain\units\design\programs\README.md	255
+.cobrain\units\design\programs\requirements.txt	55
+.cobrain\units\design\README.md	704
+.cobrain\units\design\scripts\README.md	177
+.cobrain\units\design\tech-refs\README.md	288
+.cobrain\units\devops\constitution.md	3847
+.cobrain\units\devops\programs\README.md	272
+.cobrain\units\devops\programs\requirements.txt	133
+.cobrain\units\devops\README.md	819
+.cobrain\units\devops\scripts\generate-resources.mjs	6876
+.cobrain\units\devops\scripts\README.md	298
+.cobrain\units\devops\tech-refs\README.md	234
+.cobrain\units\devops\unit-task.xml	9748
+.cobrain\units\frontend\constitution.md	5169
+.cobrain\units\frontend\programs\.gitkeep	0
+.cobrain\units\frontend\programs\README.md	413
+.cobrain\units\frontend\programs\requirements.txt	61
+.cobrain\units\frontend\README.md	660
+.cobrain\units\frontend\scripts\.gitkeep	0
+.cobrain\units\frontend\scripts\README.md	258
+.cobrain\units\frontend\scripts\run-task.sh	430
+.cobrain\units\frontend\scripts\setup.sh	213
+.cobrain\units\frontend\scripts\validate.sh	218
+.cobrain\units\frontend\tech-refs\.gitkeep	0
+.cobrain\units\frontend\tech-refs\README.md	381
+.cobrain\units\frontend\unit-task.xml	8293
+.cobrain\units\init\constitution.md	3880
+.cobrain\units\init\programs\.gitkeep	0
+.cobrain\units\init\programs\README.md	303
+.cobrain\units\init\programs\requirements.txt	60
+.cobrain\units\init\README.md	640
+.cobrain\units\init\scripts\.gitkeep	0
+.cobrain\units\init\scripts\README.md	128
+.cobrain\units\init\scripts\run-task.sh	394
+.cobrain\units\init\scripts\setup.sh	213
+.cobrain\units\init\scripts\validate.sh	218
+.cobrain\units\init\tech-refs\.gitkeep	0
+.cobrain\units\init\tech-refs\README.md	166
+.cobrain\units\init\unit-task.xml	473
+.cobrain\units\main\constitution.md	5136
+.cobrain\units\main\programs\.gitkeep	0
+.cobrain\units\main\programs\README.md	216
+.cobrain\units\main\programs\requirements.txt	60
+.cobrain\units\main\README.md	607
+.cobrain\units\main\scripts\.gitkeep	0
+.cobrain\units\main\scripts\README.md	122
+.cobrain\units\main\scripts\run-task.sh	394
+.cobrain\units\main\scripts\setup.sh	213
+.cobrain\units\main\scripts\validate.sh	218
+.cobrain\units\main\tech-refs\.gitkeep	0
+.cobrain\units\main\tech-refs\README.md	182
+.cobrain\units\main\unit-task.xml	473
+.cobrain\units\plan\constitution.md	7682
+.cobrain\units\plan\programs\.gitkeep	0
+.cobrain\units\plan\programs\README.md	217
+.cobrain\units\plan\programs\requirements.txt	60
+.cobrain\units\plan\README.md	1002
+.cobrain\units\plan\scripts\.gitkeep	0
+.cobrain\units\plan\scripts\README.md	252
+.cobrain\units\plan\scripts\run-task.sh	392
+.cobrain\units\plan\scripts\setup.sh	211
+.cobrain\units\plan\scripts\validate.sh	216
+.cobrain\units\plan\tech-refs\.gitkeep	0
+.cobrain\units\plan\tech-refs\module-index-template.md	1359
+.cobrain\units\plan\tech-refs\openclaw-module-index.md	7617
+.cobrain\units\plan\tech-refs\openviking-module-index.md	4070
+.cobrain\units\plan\tech-refs\README.md	655
+.cobrain\units\plan\unit-task.xml	473
+.cobrain\version.yaml	2648
+.cursor\commands\cb-backend.md	30112
+.cursor\commands\cb-database.md	20089
+.cursor\commands\cb-debug.md	24353
+.cursor\commands\cb-design.md	14111
+.cursor\commands\cb-devops.md	23693
+.cursor\commands\cb-frontend.md	26611
+.cursor\commands\cb-init.md	16128
+.cursor\commands\cb-main.md	18714
+.cursor\commands\cb-plan.md	23885
+cobrain-skills\cobrain-backend\SKILL.md	2258
+cobrain-skills\cobrain-database\SKILL.md	1999
+cobrain-skills\cobrain-debug\SKILL.md	2482
+cobrain-skills\cobrain-design\SKILL.md	2392
+cobrain-skills\cobrain-devops\SKILL.md	2031
+cobrain-skills\cobrain-frontend\SKILL.md	2362
+cobrain-skills\cobrain-init\SKILL.md	2698
+cobrain-skills\cobrain-main\SKILL.md	4938
+cobrain-skills\cobrain-plan\SKILL.md	3345
+cobrain-skills\README.md	2872
+README.md	2232
+web\.eslintrc.json	61
+web\.gitignore	391
+web\app\[locale]\components\Footer.tsx	1165
+web\app\[locale]\components\Header.tsx	2437
+web\app\[locale]\feishu\page.tsx	5489
+web\app\[locale]\layout.tsx	1202
+web\app\[locale]\page.tsx	7613
+web\app\favicon.ico	25931
+web\app\fonts\GeistMonoVF.woff	67864
+web\app\fonts\GeistVF.woff	66268
+web\app\globals.css	413
+web\app\layout.tsx	259
+web\i18n.ts	411
+web\messages\en.json	2811
+web\messages\zh.json	5062
+web\middleware.ts	220
+web\next.config.mjs	217
+web\next-env.d.ts	228
+web\package.json	542
+web\pnpm-lock.yaml	133499
+web\postcss.config.mjs	135
+web\README.md	833
+web\routing.ts	328
+web\tailwind.config.ts	395
+web\tsconfig.json	574

@@ -1,0 +1,390 @@
+{
+  "nav": {
+    "home": "Home",
+    "download": "Download",
+    "feishu": "Feishu Setup",
+    "freeApi": "Free APIs",
+    "alternatives": "Alternatives",
+    "lang": "中文"
+  },
+  "hero": {
+    "badge": "Built for Windows Users",
+    "title": "OpenClaw Desktop",
+    "subtitle": "One-click install - the easiest way to run AI Agents on Windows",
+    "description": "No command line, no environment setup. Download the installer, install like any software, and get your AI assistant running in 5 minutes. Supports Feishu, Telegram, Discord and more.",
+    "downloadBtn": "Download for Windows",
+    "version": "Current version v0.1.0",
+    "requirements": "Windows 10/11 (64-bit) • ~350 MB • No admin required"
+  },
+  "whatIs": {
+    "title": "What is OpenClaw?",
+    "desc": "OpenClaw is an open-source AI Agent runtime framework. It lets you create and run AI assistants across multiple platforms. These assistants can:",
+    "abilities": {
+      "chat": "Chat and interact with users",
+      "automation": "Automate repetitive tasks",
+      "integration": "Connect to third-party services",
+      "memory": "Remember conversation context"
+    },
+    "analogy": {
+      "title": "Simple Analogy",
+      "content": "Think of OpenClaw as an 'operating system for AI robots'. No coding required - just assemble different function modules like building blocks to create your AI assistant.",
+      "example": "Example: Combine 'Understand Chinese' + 'Connect to Feishu' + 'Use Qwen API' = An AI chatbot on Feishu"
+    }
+  },
+  "whatCan": {
+    "title": "What can OpenClaw do?",
+    "channels": {
+      "title": "Multi-Platform Support",
+      "desc": "Connect to Feishu, WeChat, Telegram, Discord simultaneously. One AI assistant, multiple platforms."
+    },
+    "aiModels": {
+      "title": "Support Major AI Models",
+      "desc": "Qwen, ERNIE, GPT-4, Claude, Gemini and more. Configure once, switch models anytime."
+    },
+    "automation": {
+      "title": "Automated Workflows",
+      "desc": "Auto-reply, group management, content creation, data processing - let AI handle the repetitive work."
+    },
+    "skills": {
+      "title": "Extensible Skills",
+      "desc": "Install plugins to enhance capabilities: file handling, web search, code execution and more."
+    }
+  },
+  "desktop": {
+    "title": "Why Desktop Version?",
+    "compare": {
+      "title": "Desktop vs CLI",
+      "cli": {
+        "title": "CLI Version",
+        "problems": ["Requires Node.js installation", "Requires manual configuration", "Complex commands", "No graphical interface"]
+      },
+      "desktop": {
+        "title": "Desktop Version (Recommended)",
+        "benefits": ["One-click install, no setup", "Graphical interface", "Wizard-guided config", "Built-in auto-updates"]
+      }
+    },
+    "features": {
+      "title": "Desktop-Only Features",
+      "gui": "Visual Control Panel",
+      "wizard": "First-Run Setup Wizard",
+      "tray": "System Tray Operation",
+      "shortcuts": "Desktop Shortcuts",
+      "uninstall": "Clean Uninstall"
+    }
+  },
+  "requirements": {
+    "title": "System Requirements",
+    "os": {
+      "title": "Operating System",
+      "value": "Windows 10 or Windows 11 (64-bit)",
+      "note": "Windows 7/8/XP not supported"
+    },
+    "disk": {
+      "title": "Disk Space",
+      "value": "At least 500 MB free",
+      "note": "Installer is ~350 MB"
+    },
+    "network": {
+      "title": "Network",
+      "value": "Internet connection required",
+      "note": "Needed for AI model API calls"
+    },
+    "admin": {
+      "title": "Permissions",
+      "value": "Regular user permissions sufficient",
+      "note": "No admin needed, installs to user directory"
+    }
+  },
+  "install": {
+    "title": "Installation Guide",
+    "steps": [
+      {
+        "title": "Download Installer",
+        "desc": "Click 'Download for Windows' above to get OpenClaw-Setup-0.1.0.exe"
+      },
+      {
+        "title": "Run Installer",
+        "desc": "Double-click the .exe file. If Windows shows a security prompt, click 'Run anyway'. The setup wizard will guide you through."
+      },
+      {
+        "title": "Follow Setup Wizard",
+        "desc": "On first run, a setup wizard will appear. You'll need to: select AI model (e.g., Qwen, ERNIE), enter API key, choose platforms to connect (e.g., Feishu)"
+      },
+      {
+        "title": "Start Using",
+        "desc": "Once configured, OpenClaw runs in system tray. Try sending a message to your bot on Feishu or Telegram!"
+      }
+    ],
+    "tips": {
+      "title": "Tips",
+      "apiKey": "No API key? Check the 'Free APIs' page to apply for free quota",
+      "feishu": "Feishu setup has detailed guide on the 'Feishu Setup' page"
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "feishu": {
+      "title": "Feishu Setup",
+      "desc": "Use OpenClaw AI assistant on Feishu",
+      "link": "View Feishu Setup Guide"
+    },
+    "freeApi": {
+      "title": "Free APIs",
+      "desc": "Get free AI model access in China",
+      "link": "View Free API Guide"
+    },
+    "alternatives": {
+      "title": "Alternatives",
+      "desc": "Compare other AI Agent platforms",
+      "link": "View Alternatives"
+    }
+  },
+  "feishu": {
+    "title": "Feishu Setup Guide",
+    "subtitle": "Complete guide to running OpenClaw AI assistant on Feishu",
+    "notice": {
+      "title": "Prerequisites",
+      "content": "Before starting, you need a Feishu account and access to Feishu Open Platform. Individual users can use 'Self-Built App' mode."
+    },
+    "steps": [
+      {
+        "title": "Step 1: Create Feishu App",
+        "desc": "Go to Feishu Open Platform (open.feishu.cn), log in, and go to Developer Console. Click 'Create Enterprise Self-Built App'.",
+        "details": [
+          "Fill in app name (e.g., My AI Assistant)",
+          "Fill in app description (optional)",
+          "Upload app icon (optional)",
+          "Select your enterprise workspace"
+        ]
+      },
+      {
+        "title": "Step 2: Get Credentials",
+        "desc": "In the app page, find 'Credentials & Basic Info', copy these values:",
+        "keys": ["App ID (format: cli_xxxx)", "App Secret"]
+      },
+      {
+        "title": "Step 3: Configure Permissions",
+        "desc": "Click 'Permissions Management' on the left, add these permissions:",
+        "permissions": [
+          "im:message - Send and receive messages",
+          "im:message.group_at_msg - Receive group @ messages",
+          "im:message.receive_v1 - Receive message events"
+        ]
+      },
+      {
+        "title": "Step 4: Publish App",
+        "desc": "After configuring permissions, you need to create a version and publish:",
+        "details": [
+          "Click 'Create Version'",
+          "Fill in version number (e.g., 1.0.0)",
+          "Fill in update notes",
+          "Click 'Save', then 'Publish'"
+        ]
+      },
+      {
+        "title": "Step 5: Configure in OpenClaw",
+        "desc": "Open OpenClaw Desktop, go to 'Channels' settings, select 'Feishu', paste App ID and App Secret from Step 2.",
+        "tips": "We recommend 'Polling Mode' - simple and stable, no webhook setup needed."
+      },
+      {
+        "title": "Step 6: Test",
+        "desc": "Find your bot in Feishu and send a message. If configured correctly, AI will respond!"
+      }
+    ],
+    "troubleshoot": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "Error: 'App Secret incorrect'",
+          "a": "Go back to Feishu Open Platform and re-copy App Secret. Make sure there are no spaces. If still not working, try regenerating."
+        },
+        {
+          "q": "Bot not responding",
+          "a": "1. Confirm app is published; 2. Confirm bot is added as contact; 3. Check if OpenClaw is running."
+        },
+        {
+          "q": "How to get API key?",
+          "a": "Check the 'Free APIs' page - major Chinese providers offer free quotas."
+        }
+      ]
+    }
+  },
+  "freeApi": {
+    "title": "Free API Summary",
+    "subtitle": "Summary of free quotas from major Chinese AI model providers",
+    "notice": "Free quotas below are sufficient for personal use. Application process usually takes a few minutes.",
+    "providers": {
+      "baidu": {
+        "name": "Baidu ERNIE (Wenxin Yiyan)",
+        "provider": "Baidu Cloud",
+        "website": "cloud.baidu.com",
+        "registerUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+        "freeTier": "ERNIE-4.0: 1M Tokens/month\nERNIE-3.5-Turbo: 5M Tokens/month",
+        "models": ["ERNIE-4.0", "ERNIE-3.5-8K", "ERNIE-Speed", "ERNIE-Lite"],
+        "howTo": {
+          "title": "How to Get Key",
+          "steps": [
+            "Visit Baidu Cloud and register",
+            "Enable Wenxin Workshop service",
+            "Create app to get AppID, API Key, Secret Key",
+            "Enter API Key and Secret Key in OpenClaw"
+          ]
+        },
+        "endpoint": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat"
+      },
+      "ali": {
+        "name": "Alibaba Qwen",
+        "provider": "Alibaba Cloud Bailian",
+        "website": "bailian.console.aliyun.com",
+        "registerUrl": "https://bailian.console.aliyun.com",
+        "freeTier": "Qwen-Turbo: 1M Tokens/month\nQwen-Plus: 1M Tokens/month\nQwen-Max: Limited free",
+        "models": ["Qwen-Turbo", "Qwen-Plus", "Qwen-Max", "Qwen-Audio"],
+        "howTo": {
+          "title": "How to Get Key",
+          "steps": [
+            "Log in to Bailian platform with Alibaba Cloud account",
+            "Complete real-name authentication",
+            "Enable 'Model Service'",
+            "Create API key on 'API-KEY' page",
+            "Copy API Key to OpenClaw"
+          ]
+        },
+        "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
+      },
+      "xunfei": {
+        "name": "iFlytek Spark",
+        "provider": "iFlytek Open Platform",
+        "website": "xinghuo.xfyun.cn",
+        "registerUrl": "https://xinghuo.xfyun.cn/desk",
+        "freeTier": "Spark V3.5: Unlimited calls\n(After authentication)",
+        "models": ["Spark V4.0", "Spark V3.5", "Spark Speed Version"],
+        "howTo": {
+          "title": "How to Get Key",
+          "steps": [
+            "Visit iFlytek Open Platform and register",
+            "Complete personal authentication",
+            "Enable 'Spark Cognitive Large Model' service",
+            "Create app in 'My Apps' to get APPID, APISecret, APIKey",
+            "Enter all three values in OpenClaw"
+          ]
+        },
+        "endpoint": "https://spark-api.xf-yun.com/v3.5/chat"
+      },
+      "zhipu": {
+        "name": "Zhipu GLM",
+        "provider": "Zhipu AI Open Platform",
+        "website": "open.bigmodel.cn",
+        "registerUrl": "https://open.bigmodel.cn/",
+        "freeTier": "GLM-4: 1M Tokens/month\nGLM-3-Turbo: 1M Tokens/month",
+        "models": ["GLM-4", "GLM-4-Flash", "GLM-3-Turbo"],
+        "howTo": {
+          "title": "How to Get Key",
+          "steps": [
+            "Visit Zhipu AI Open Platform and register",
+            "Complete real-name authentication",
+            "Create API key on 'API Keys' page",
+            "Copy API Key to OpenClaw"
+          ]
+        },
+        "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+      }
+    },
+    "tips": {
+      "title": "Usage Tips",
+      "quota": "Free quotas refresh monthly - if exhausted, wait for next month",
+      "cost": "Most platforms stop service when quota exceeded - no surprise charges",
+      "key": "API key is like a password - don't share it"
+    }
+  },
+  "alternatives": {
+    "title": "Similar Products",
+    "subtitle": "Overview of major AI Agent platforms in China",
+    "notice": "All products below are from major Chinese internet companies, each with unique features. OpenClaw's advantages: open-source, self-hostable, supports private deployment.",
+    "products": {
+      "coze": {
+        "name": "ByteDance Coze",
+        "company": "ByteDance",
+        "website": "coze.cn",
+        "url": "https://coze.cn",
+        "description": "ByteDance's AI Bot development platform, supports drag-and-drop workflow orchestration, integrates ByteDance ecosystem.",
+        "highlights": ["Drag-and-drop workflow", "Douyin/Feishu integration", "Rich plugin marketplace", "China and international versions"],
+        "target": "For users who want to quickly create bots without self-hosting",
+        "download": "Online only - no client download"
+      },
+      "tongyi": {
+        "name": "Alibaba Tongyi",
+        "company": "Alibaba",
+        "website": "tongyi.aliyun.com",
+        "url": "https://tongyi.aliyun.com",
+        "description": "Alibaba Cloud's AI chat assistant based on Qwen LLM, supports multi-turn conversation and content creation.",
+        "highlights": ["Qwen LLM", "Alibaba Cloud ecosystem", "Enterprise knowledge base", "API access"],
+        "target": "For users already using Alibaba Cloud",
+        "download": "Online or desktop client"
+      },
+      "wenxin": {
+        "name": "Baidu ERNIE Yiyan",
+        "company": "Baidu",
+        "website": "yiyan.baidu.com",
+        "url": "https://yiyan.baidu.com",
+        "description": "Baidu's generative AI product based on ERNIE LLM, supports dialogue and content creation.",
+        "highlights": ["ERNIE LLM", "Baidu Search integration", "Enterprise ERNIE Bot", "API available"],
+        "target": "For users needing Baidu AI capabilities",
+        "download": "Online or desktop client"
+      },
+      "xinghuo": {
+        "name": "iFlytek Spark",
+        "company": "iFlytek",
+        "website": "xinghuo.xfyun.cn",
+        "url": "https://xinghuo.xfyun.cn",
+        "description": "iFlytek's cognitive LLM with strong multilingual and voice interaction capabilities, optimized for education.",
+        "highlights": ["Strong voice interaction", "Multilingual support", "Speech synthesis/recognition", "Education-optimized"],
+        "target": "For users with voice interaction needs or iFlytek ecosystem",
+        "download": "Online or desktop client"
+      },
+      "zhipu": {
+        "name": "Zhipu ChatGLM",
+        "company": "Zhipu AI",
+        "website": "chatglm.cn",
+        "url": "https://chatglm.cn",
+        "description": "Zhipu AI's chat assistant based on GLM LLM, open-source and commercially usable.",
+        "highlights": ["GLM open-source model", "Rich API", "ChatGLM series", "Complete tech docs"],
+        "target": "For developers or users needing deep customization",
+        "download": "Online only"
+      }
+    },
+    "comparison": {
+      "title": "Quick Comparison",
+      "headers": ["Product", "Company", "Open Source", "Self-Host", "Free Quota", "Difficulty"],
+      "rows": [
+        ["OpenClaw Desktop", "Open Source", "✅", "✅", "Depends on API", "Easy"],
+        ["ByteDance Coze", "ByteDance", "❌", "❌", "Limited", "Easy"],
+        ["Alibaba Tongyi", "Alibaba", "❌", "❌", "Limited", "Easy"],
+        ["Baidu ERNIE", "Baidu", "❌", "❌", "Limited", "Easy"],
+        ["iFlytek Spark", "iFlytek", "❌", "❌", "Limited", "Easy"]
+      ]
+    },
+    "whyOpenclaw": {
+      "title": "Why Choose OpenClaw?",
+      "reasons": [
+        "Open source & transparent: Code visible, no vendor lock-in",
+        "Self-hostable: Data stays local, privacy secure",
+        "Cross-platform: Connect multiple platforms simultaneously",
+        "Extensible: Support custom plugins and skills",
+        "Lightweight: One-click Windows install, no Docker needed"
+      ]
+    }
+  },
+  "footer": {
+    "product": "Product",
+    "docs": "Docs",
+    "community": "Community",
+    "resources": "Resources",
+    "github": "GitHub",
+    "releases": "Releases",
+    "feishuGuide": "Feishu Setup Guide",
+    "freeApiGuide": "Free API Guide",
+    "alternativesGuide": "Alternatives Guide",
+    "license": "GPL-3.0 License",
+    "copyright": "© 2024 OpenClaw. All rights reserved."
+  }
+}

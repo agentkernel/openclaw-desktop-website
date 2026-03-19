@@ -1,0 +1,390 @@
+{
+  "nav": {
+    "home": "首页",
+    "download": "下载",
+    "feishu": "飞书配置",
+    "freeApi": "免费API",
+    "alternatives": "同类产品",
+    "lang": "EN"
+  },
+  "hero": {
+    "badge": "专为 Windows 用户打造",
+    "title": "OpenClaw Desktop",
+    "subtitle": "一键安装，在 Windows 上运行 AI Agent 的最简单方式",
+    "description": "无需命令行，无需配置环境。下载安装包，像安装普通软件一样，5分钟让你的 AI 助手上线。支持连接飞书、Telegram、Discord 等平台。",
+    "downloadBtn": "立即下载 Windows 版",
+    "version": "当前版本 v0.1.0",
+    "requirements": "Windows 10/11 (64位) • 约 350 MB • 无需管理员权限"
+  },
+  "whatIs": {
+    "title": "什么是 OpenClaw？",
+    "desc": "OpenClaw 是一个开源的 AI Agent（人工智能代理）运行框架。它让你可以在各种平台上创建和运行 AI 助手，这些助手可以：",
+    "abilities": {
+      "chat": "与用户对话交流",
+      "automation": "自动处理重复任务",
+      "integration": "连接各种第三方服务",
+      "memory": "记住对话上下文"
+    },
+    "analogy": {
+      "title": "类比理解",
+      "content": "想象 OpenClaw 是一个「AI 机器人的操作系统」。你不需要写代码，就像搭积木一样，把不同的功能模块拼在一起，你的 AI 助手就做好了。",
+      "example": "例如：把「理解中文」+ 「连接飞书」+ 「调用通义千问」拼在一起 = 一个在飞书上和你聊天的 AI 助手"
+    }
+  },
+  "whatCan": {
+    "title": "OpenClaw 能做什么？",
+    "channels": {
+      "title": "多平台连接",
+      "desc": "同时连接飞书、微信、Telegram、Discord 等多个平台，一个 AI 助手多处上线"
+    },
+    "aiModels": {
+      "title": "支持主流 AI 模型",
+      "desc": "通义千问、文心一言、GPT-4、Claude、Gemini 等，一个平台配置，多个模型切换"
+    },
+    "automation": {
+      "title": "自动化工作流",
+      "desc": "自动回复、群管理、内容创作、数据处理，把重复的事交给 AI"
+    },
+    "skills": {
+      "title": "可扩展的技能",
+      "desc": "安装插件来增强能力：文件处理、网页搜索、代码执行等"
+    }
+  },
+  "desktop": {
+    "title": "为什么选择桌面版？",
+    "compare": {
+      "title": "桌面版 vs 命令行版",
+      "cli": {
+        "title": "命令行版本",
+        "problems": ["需要安装 Node.js 环境", "需要配置各种参数", "命令复杂容易出错", "没有可视化界面"]
+      },
+      "desktop": {
+        "title": "桌面版（推荐）",
+        "benefits": ["一键安装，无需配置环境", "图形界面，所见即所得", "向导式配置，零基础上手", "内置更新，自动保持最新"]
+      }
+    },
+    "features": {
+      "title": "桌面版专属功能",
+      "gui": "可视化控制面板",
+      "wizard": "首次使用向导",
+      "tray": "系统托盘运行",
+      "shortcuts": "桌面快捷方式",
+      "uninstall": "正常卸载，无残留"
+    }
+  },
+  "requirements": {
+    "title": "电脑配置要求",
+    "os": {
+      "title": "操作系统",
+      "value": "Windows 10 或 Windows 11（64位）",
+      "note": "不支持 Windows 7/8/XP"
+    },
+    "disk": {
+      "title": "磁盘空间",
+      "value": "至少 500 MB 可用空间",
+      "note": "安装包约 350 MB"
+    },
+    "network": {
+      "title": "网络",
+      "value": "需要互联网连接",
+      "note": "用于调用 AI 模型 API"
+    },
+    "admin": {
+      "title": "权限",
+      "value": "普通用户权限即可",
+      "note": "无需管理员，安装到用户目录"
+    }
+  },
+  "install": {
+    "title": "安装指南",
+    "steps": [
+      {
+        "title": "下载安装包",
+        "desc": "点击上方的「立即下载」按钮，获取 OpenClaw-Setup-0.1.0.exe 文件"
+      },
+      {
+        "title": "运行安装程序",
+        "desc": "双击 .exe 文件。如果 Windows 弹出安全提示，点击「仍要运行」即可。安装向导会自动引导你完成后续步骤。"
+      },
+      {
+        "title": "跟随配置向导",
+        "desc": "首次运行时会有一个设置向导。你需要：选择 AI 模型（如通义千问、文心一言）、填入 API 密钥、选择要连接的平台（如飞书）"
+      },
+      {
+        "title": "开始使用",
+        "desc": "配置完成后，OpenClaw 会在系统托盘运行。直接在飞书或 Telegram 上给机器人发消息试试吧！"
+      }
+    ],
+    "tips": {
+      "title": "小贴士",
+      "apiKey": "如果没有 API 密钥，可以前往「免费API」页面申请",
+      "feishu": "飞书配置有专门的详细指南，请参考「飞书配置」页面"
+    }
+  },
+  "quickStart": {
+    "title": "快速开始",
+    "feishu": {
+      "title": "飞书配置",
+      "desc": "在飞书上使用 OpenClaw AI 助手",
+      "link": "查看飞书配置指南"
+    },
+    "freeApi": {
+      "title": "免费API",
+      "desc": "获取国内免费 AI 模型接口",
+      "link": "查看免费API汇总"
+    },
+    "alternatives": {
+      "title": "同类产品",
+      "desc": "对比其他 AI Agent 平台",
+      "link": "查看竞品对比"
+    }
+  },
+  "feishu": {
+    "title": "飞书配置指南",
+    "subtitle": "在飞书上运行 OpenClaw AI 助手的完整步骤",
+    "notice": {
+      "title": "前置要求",
+      "content": "在开始之前，你需要有一个飞书账号，并能够访问飞书开放平台。如果你是个人用户，可以使用「自建应用」模式。"
+    },
+    "steps": [
+      {
+        "title": "第一步：创建飞书应用",
+        "desc": "打开飞书开放平台 (open.feishu.cn)，登录后进入「开发者后台」，点击「创建企业自建应用」。",
+        "details": [
+          "填写应用名称（如：我的 AI 助手）",
+          "填写应用描述（可选）",
+          "上传应用图标（可选）",
+          "选择你所在的企业（或创建个人版）"
+        ]
+      },
+      {
+        "title": "第二步：获取凭证",
+        "desc": "在创建好的应用页面，找到「凭证与基础信息」，复制以下两个值备用：",
+        "keys": ["App ID（格式：cli_xxxx）", "App Secret"]
+      },
+      {
+        "title": "第三步：配置权限",
+        "desc": "在左侧菜单点击「权限管理」，申请以下权限：",
+        "permissions": [
+          "im:message - 发送和接收消息",
+          "im:message.group_at_msg - 接收群聊@消息",
+          "im:message.receive_v1 - 接收消息事件"
+        ]
+      },
+      {
+        "title": "第四步：发布应用",
+        "desc": "配置好权限后，需要创建版本并发布应用才能生效：",
+        "details": [
+          "点击「创建版本」",
+          "填写版本号（如 1.0.0）",
+          "填写更新说明",
+          "点击「保存」后再点击「发布」"
+        ]
+      },
+      {
+        "title": "第五步：在 OpenClaw 中配置",
+        "desc": "打开 OpenClaw Desktop，进入「通道」设置，选择「飞书」，粘贴第二步复制的 App ID 和 App Secret。",
+        "tips": "推荐选择「轮询模式」，简单稳定，无需配置 Webhook。"
+      },
+      {
+        "title": "第六步：测试",
+        "desc": "在飞书中找到你的机器人，直接发送一条消息。如果配置正确，AI 会回复你！"
+      }
+    ],
+    "troubleshoot": {
+      "title": "常见问题",
+      "items": [
+        {
+          "q": "提示「App Secret 不正确」",
+          "a": "请到飞书开放平台重新复制 App Secret，注意不要有空格。如果还是不行，可以尝试重新生成。"
+        },
+        {
+          "q": "机器人没有回复",
+          "a": "1. 确认应用已发布；2. 确认已添加机器人为联系人；3. 检查 OpenClaw 是否在运行。"
+        },
+        {
+          "q": "如何获取 API 密钥？",
+          "a": "参考「免费API」页面，国内各大厂都提供免费额度。"
+        }
+      ]
+    }
+  },
+  "freeApi": {
+    "title": "免费 API 汇总",
+    "subtitle": "国内主流 AI 大模型免费额度汇总，申请简单，小白也能快速上手",
+    "notice": "以下平台的免费额度足够个人用户日常使用。申请过程通常需要几分钟，请耐心等待审核。",
+    "providers": {
+      "baidu": {
+        "name": "百度文心一言",
+        "provider": "百度智能云",
+        "website": "cloud.baidu.com",
+        "registerUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+        "freeTier": "文心一言 ERNIE-4.0：每月 100 万 Token\n文心3.5 Turbo：每月 500 万 Token",
+        "models": ["ERNIE-4.0", "ERNIE-3.5-8K", "ERNIE-Speed", "ERNIE-Lite"],
+        "howTo": {
+          "title": "获取密钥步骤",
+          "steps": [
+            "访问百度智能云并注册账号",
+            "开通文心一言服务（选择「服务调用」模式）",
+            "创建应用，获取 AppID、API Key、Secret Key",
+            "在 OpenClaw 中填入 API Key 和 Secret Key"
+          ]
+        },
+        "endpoint": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat"
+      },
+      "ali": {
+        "name": "通义千问",
+        "provider": "阿里云百炼",
+        "website": "bailian.console.aliyun.com",
+        "registerUrl": "https://bailian.console.aliyun.com",
+        "freeTier": "Qwen-Turbo：100 万 Token/月\nQwen-Plus：100 万 Token/月\nQwen-Max：有限免费",
+        "models": ["Qwen-Turbo", "Qwen-Plus", "Qwen-Max", "Qwen-Audio"],
+        "howTo": {
+          "title": "获取密钥步骤",
+          "steps": [
+            "使用阿里云账号登录百炼平台",
+            "完成实名认证",
+            "开通「模型服务」",
+            "在「API-KEY」页面创建密钥",
+            "复制 API Key 到 OpenClaw"
+          ]
+        },
+        "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
+      },
+      "xunfei": {
+        "name": "讯飞星火",
+        "provider": "讯飞开放平台",
+        "website": "xinghuo.xfyun.cn",
+        "registerUrl": "https://xinghuo.xfyun.cn/desk",
+        "freeTier": "星火大模型 V3.5：无限次调用\n（需完成认证后获取）",
+        "models": ["星火大模型 V4.0", "星火大模型 V3.5", "星火极速版"],
+        "howTo": {
+          "title": "获取密钥步骤",
+          "steps": [
+            "访问讯飞开放平台并注册",
+            "完成个人认证",
+            "开通「星火认知大模型」服务",
+            "在「我的应用」创建应用，获取 APPID、APISecret、APIKey",
+            "在 OpenClaw 中填入这三个值"
+          ]
+        },
+        "endpoint": "https://spark-api.xf-yun.com/v3.5/chat"
+      },
+      "zhipu": {
+        "name": "智谱 GLM",
+        "provider": "智谱AI开放平台",
+        "website": "open.bigmodel.cn",
+        "registerUrl": "https://open.bigmodel.cn/",
+        "freeTier": "GLM-4：100 万 Token/月\nGLM-3-Turbo：100 万 Token/月",
+        "models": ["GLM-4", "GLM-4-Flash", "GLM-3-Turbo"],
+        "howTo": {
+          "title": "获取密钥步骤",
+          "steps": [
+            "访问智谱AI开放平台并注册",
+            "完成实名认证",
+            "在「API 密钥」页面创建密钥",
+            "复制 API Key 到 OpenClaw"
+          ]
+        },
+        "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+      }
+    },
+    "tips": {
+      "title": "使用小贴士",
+      "quota": "免费额度通常按月刷新，用完当月无法继续使用",
+      "cost": "大多数平台会在超额后停止服务，不会产生费用",
+      "key": "API 密钥相当于密码，请勿泄露给他人"
+    }
+  },
+  "alternatives": {
+    "title": "同类产品对比",
+    "subtitle": "国内主流 AI Agent 平台一览",
+    "notice": "以下产品均为国内知名互联网公司推出的 AI Agent 平台，各有特色。OpenClaw 的优势在于开源、可自托管、支持私有化部署。",
+    "products": {
+      "coze": {
+        "name": "字节扣子 (Coze)",
+        "company": "字节跳动",
+        "website": "coze.cn",
+        "url": "https://coze.cn",
+        "description": "字节跳动推出的 AI Bot 开发平台，支持拖拽式编排工作流，集成字节系产品生态。",
+        "highlights": ["拖拽式编排", "抖音/飞书集成", "丰富插件市场", "有国内版和海外版"],
+        "target": "适合需要快速创建 Bot、不需要自托管的用户",
+        "download": "在线使用，无需下载客户端"
+      },
+      "tongyi": {
+        "name": "通义千问助手",
+        "company": "阿里巴巴",
+        "website": "tongyi.aliyun.com",
+        "url": "https://tongyi.aliyun.com",
+        "description": "阿里云推出的 AI 对话助手，基于通义千问大模型，支持多轮对话、内容创作等功能。",
+        "highlights": ["通义千问大模型", "阿里云生态", "企业知识库", "API 调用支持"],
+        "target": "适合已有阿里云资源的用户",
+        "download": "在线使用 或 下载桌面客户端"
+      },
+      "wenxin": {
+        "name": "文心一言",
+        "company": "百度",
+        "website": "yiyan.baidu.com",
+        "url": "https://yiyan.baidu.com",
+        "description": "百度推出的生成式 AI 产品，基于文心大模型，支持对话、创作等功能。",
+        "highlights": ["文心大模型", "百度搜索集成", "企业版 ERNIE Bot", "API 开放"],
+        "target": "适合需要百度 AI 能力的用户",
+        "download": "在线使用 或 下载客户端"
+      },
+      "xinghuo": {
+        "name": "讯飞星火",
+        "company": "科大讯飞",
+        "website": "xinghuo.xfyun.cn",
+        "url": "https://xinghuo.xfyun.cn",
+        "description": "科大讯飞推出的认知大模型，支持多语种、语音交互，在教育领域有深厚积累。",
+        "highlights": ["语音交互强", "多语种支持", "语音合成/识别", "教育场景优化"],
+        "target": "适合有语音交互需求或讯飞生态用户",
+        "download": "在线使用 或 下载客户端"
+      },
+      "zhipu": {
+        "name": "智谱清言",
+        "company": "智谱AI",
+        "website": "chatglm.cn",
+        "url": "https://chatglm.cn",
+        "description": "智谱AI推出的对话助手，基于 GLM 大模型，开源可商用。",
+        "highlights": ["GLM 开源模型", "API 丰富", "ChatGLM 系列", "技术文档完善"],
+        "target": "适合开发者或需要深度定制的用户",
+        "download": "在线使用"
+      }
+    },
+    "comparison": {
+      "title": "对比一览",
+      "headers": ["产品", "公司", "开源", "自托管", "免费额度", "上手难度"],
+      "rows": [
+        ["OpenClaw Desktop", "开源社区", "✅", "✅", "取决于API", "简单"],
+        ["字节扣子", "字节跳动", "❌", "❌", "有限", "简单"],
+        ["通义千问", "阿里", "❌", "❌", "有限", "简单"],
+        ["文心一言", "百度", "❌", "❌", "有限", "简单"],
+        ["讯飞星火", "讯飞", "❌", "❌", "有限", "简单"]
+      ]
+    },
+    "whyOpenclaw": {
+      "title": "为什么选择 OpenClaw？",
+      "reasons": [
+        "开源透明：代码可见，无供应商锁定风险",
+        "自托管：数据留在本地，隐私安全",
+        "跨平台：同时连接多个平台，统一管理",
+        "可扩展：支持自定义插件和技能",
+        "轻量级：Windows 一键安装，无需 Docker"
+      ]
+    }
+  },
+  "footer": {
+    "product": "产品",
+    "docs": "文档",
+    "community": "社区",
+    "resources": "资源",
+    "github": "GitHub",
+    "releases": "Releases",
+    "feishuGuide": "飞书配置指南",
+    "freeApiGuide": "免费API汇总",
+    "alternativesGuide": "同类产品对比",
+    "license": "GPL-3.0 License",
+    "copyright": "© 2024 OpenClaw. All rights reserved."
+  }
+}
